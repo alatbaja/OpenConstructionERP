@@ -205,5 +205,33 @@
       "fail": "Einheit '{unit}' in Position {ordinal} ist nicht standardkonform",
       "suggestion": "Standard-Metrikeinheiten verwenden: m, m2, m3, kg, t, 式 usw."
     }
+  },
+  "dz_btph": {
+    "tva_rate": {
+      "fail": "TVA-Satz {rate} unzulässig — erwartet {allowed}",
+      "fail_pos": "Position {ordinal}: TVA-Satz {rate} unzulässig — erwartet {allowed}",
+      "suggestion": "TVA 19% (normal), 9% (ermäßigt LF2026) oder 0% (befreit) verwenden. TAP entfällt."
+    },
+    "retenue_garantie": {
+      "fail": "{ordinal}: Retenue de garantie {rate} muss 5% betragen (erwartet {expected})",
+      "suggestion": "Retenue de garantie auf 5% setzen, Freigabe bei réception définitive (12 Monate)"
+    },
+    "tap_supprimee": {
+      "fail": "TAP darf nicht mehr erscheinen — supprimée seit LF2024, bestätigt LF2026 (gefunden bei {detail})",
+      "suggestion": "TAP aus Markups und G50 entfernen: existiert seit LF2024 nicht mehr"
+    },
+    "lot_btph": {
+      "fail": "Position {ordinal}: Lot '{lot}' ist kein gültiges BTPH-Lot — erwartet {valid}",
+      "suggestion": "Eines der 8 BTPH-Lots zuweisen: 01 Gros Œuvre, 02 Étanchéité, 03 Menuiserie, 04 Électricité, 05 Plomberie, 06 Peinture, 07 VRD, 08 Aménagements"
+    },
+    "bpu_structure": {
+      "currency_fail": "Währung '{currency}' muss DZD sein für DZ BPU/DQE",
+      "currency_suggestion": "LV-Währung auf DZD (Algerischer Dinar) setzen",
+      "ordinal_fail": "Ordnungszahl '{ordinal}' sollte DZ BPU-Schema folgen (Lot-präfix, z.B. 01.01)",
+      "ordinal_suggestion": "Lot-präfixierte Ordnungszahlen verwenden: 01.xx für Gros Œuvre, 02.xx für Étanchéité usw."
+    },
+    "cacobatph": {
+      "info": "Masse salariale {masse} DA → CACOBATPH 12,21% = {cot} DA (Satz {rate})"
+    }
   }
 }

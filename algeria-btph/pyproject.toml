@@ -1,0 +1,12 @@
+[project]
+name = "algeria-btph"
+version = "0.1.0"
+description = "ERP الجزائر BTPH - Décompte / Situation / فواتير"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "python-multipart>=0.0.9",
+    "sqlalchemy>=2.0",
+]

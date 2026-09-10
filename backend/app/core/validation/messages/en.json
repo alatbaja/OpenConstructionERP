@@ -205,5 +205,33 @@
       "fail": "Unit '{unit}' in position {ordinal} not standard",
       "suggestion": "Use standard metric units: m, m2, m3, kg, t, 式, etc."
     }
+  },
+  "dz_btph": {
+    "tva_rate": {
+      "fail": "TVA rate {rate} is not allowed — expected {allowed}",
+      "fail_pos": "Position {ordinal}: TVA rate {rate} is not allowed — expected {allowed}",
+      "suggestion": "Use TVA 19% (normal), 9% (réduit LF2026) or 0% (exonéré). TAP is supprimée."
+    },
+    "retenue_garantie": {
+      "fail": "{ordinal}: Retenue de garantie {rate} must be 5% (expected {expected})",
+      "suggestion": "Set Retenue de garantie to 5%, released at réception définitive (12 months)"
+    },
+    "tap_supprimee": {
+      "fail": "TAP must not appear — supprimée depuis LF2024, confirmée LF2026 (found on {detail})",
+      "suggestion": "Remove TAP from markups and G50: it no longer exists since LF2024"
+    },
+    "lot_btph": {
+      "fail": "Position {ordinal}: Lot '{lot}' is not a valid BTPH Lot — expected one of {valid}",
+      "suggestion": "Assign one of the 8 Lots BTPH: 01 Gros Œuvre, 02 Étanchéité, 03 Menuiserie, 04 Électricité, 05 Plomberie, 06 Peinture, 07 VRD, 08 Aménagements"
+    },
+    "bpu_structure": {
+      "currency_fail": "Currency '{currency}' must be DZD for DZ BPU/DQE",
+      "currency_suggestion": "Set BOQ currency to DZD (Algerian Dinar)",
+      "ordinal_fail": "Ordinal '{ordinal}' should follow DZ BPU scheme (Lot-prefixed, e.g. 01.01)",
+      "ordinal_suggestion": "Use Lot-prefixed ordinals: 01.xx for Gros Œuvre, 02.xx for Étanchéité, etc."
+    },
+    "cacobatph": {
+      "info": "Masse salariale {masse} DA → CACOBATPH 12,21% = {cot} DA (rate {rate})"
+    }
   }
 }

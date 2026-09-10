@@ -102,7 +102,8 @@ REGION_GROUPS: dict[str, list[str]] = {
     "UK": ["GB"],
     "NA": ["US", "CA"],
     "LATAM": ["MX", "BR", "AR", "CL", "CO", "PE"],
-    "MENA": ["SA", "AE", "QA", "KW", "EG", "IL", "TR"],
+    "MENA": ["SA", "AE", "QA", "KW", "EG", "IL", "TR", "DZ", "MA", "TN", "LY"],
+    "MAGHREB": ["DZ", "MA", "TN", "LY", "MR"],
     "APAC": ["AU", "JP", "NZ", "KR", "CN", "SG", "IN", "MY", "TH"],
     "RU": ["RU"],
 }
@@ -277,6 +278,39 @@ COUNTRY_DEFAULTS: dict[str, dict[str, str]] = {
         "date_format": "DD.MM.YYYY",
         "number_format": "1 234,56",
         "locale": "ru",
+    },
+    # North Africa — Maghreb / LF2026 priority ---------------------------
+    "DZ": {
+        "currency": "DZD",
+        "measurement": "metric",
+        "paper": "A4",
+        "date_format": "DD/MM/YYYY",
+        "number_format": "1 234,56",
+        "locale": "ar",
+    },
+    "MA": {
+        "currency": "MAD",
+        "measurement": "metric",
+        "paper": "A4",
+        "date_format": "DD/MM/YYYY",
+        "number_format": "1 234,56",
+        "locale": "ar",
+    },
+    "TN": {
+        "currency": "TND",
+        "measurement": "metric",
+        "paper": "A4",
+        "date_format": "DD/MM/YYYY",
+        "number_format": "1 234,56",
+        "locale": "ar",
+    },
+    "LY": {
+        "currency": "LYD",
+        "measurement": "metric",
+        "paper": "A4",
+        "date_format": "DD/MM/YYYY",
+        "number_format": "1,234.56",
+        "locale": "ar",
     },
     # Middle East / Turkey ------------------------------------------------
     "TR": {

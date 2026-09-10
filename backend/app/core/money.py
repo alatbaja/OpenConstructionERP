@@ -69,6 +69,11 @@ CURRENCIES: dict[str, dict[str, Any]] = {
     "QAR": {"symbol": "﷼", "name": "Qatari Riyal", "decimals": 2},
     "ZAR": {"symbol": "R", "name": "South African Rand", "decimals": 2},
     "EGP": {"symbol": "E£", "name": "Egyptian Pound", "decimals": 2},
+    # North Africa — Maghreb (LF2026 priority)
+    "DZD": {"symbol": "DA", "name": "Algerian Dinar", "decimals": 2},
+    "TND": {"symbol": "DT", "name": "Tunisian Dinar", "decimals": 3},
+    "MAD": {"symbol": "DH", "name": "Moroccan Dirham", "decimals": 2},
+    "LYD": {"symbol": "LD", "name": "Libyan Dinar", "decimals": 3},
     # Asia-Pacific
     "JPY": {"symbol": "¥", "name": "Japanese Yen", "decimals": 0},
     "CNY": {"symbol": "¥", "name": "Chinese Yuan", "decimals": 2},

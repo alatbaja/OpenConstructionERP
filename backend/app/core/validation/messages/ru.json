@@ -205,5 +205,33 @@
       "fail": "Единица '{unit}' в позиции {ordinal} не является стандартной",
       "suggestion": "Используйте стандартные метрические единицы: m, m2, m3, kg, t, 式 и т.п."
     }
+  },
+  "dz_btph": {
+    "tva_rate": {
+      "fail": "Ставка TVA {rate} недопустима — ожидается {allowed}",
+      "fail_pos": "Позиция {ordinal}: ставка TVA {rate} недопустима — ожидается {allowed}",
+      "suggestion": "Используйте TVA 19% (normal), 9% (réduit LF2026) или 0% (exonéré). TAP отменена."
+    },
+    "retenue_garantie": {
+      "fail": "{ordinal}: Retenue de garantie {rate} должна быть 5% (ожидается {expected})",
+      "suggestion": "Установите Retenue de garantie 5%, освобождается при réception définitive (12 мес.)"
+    },
+    "tap_supprimee": {
+      "fail": "TAP больше не существует — supprimée с LF2024, подтверждено LF2026 (найдено у {detail})",
+      "suggestion": "Удалите TAP из наценок и G50: не существует с LF2024"
+    },
+    "lot_btph": {
+      "fail": "Позиция {ordinal}: Lot '{lot}' — неверный BTPH Lot, ожидается {valid}",
+      "suggestion": "Назначьте один из 8 Lots BTPH: 01 Gros Œuvre, 02 Étanchéité, 03 Menuiserie, 04 Électricité, 05 Plomberie, 06 Peinture, 07 VRD, 08 Aménagements"
+    },
+    "bpu_structure": {
+      "currency_fail": "Валюта '{currency}' должна быть DZD для DZ BPU/DQE",
+      "currency_suggestion": "Установите валюту ведомости DZD (Algerian Dinar)",
+      "ordinal_fail": "Номер '{ordinal}' должен следовать схеме DZ BPU (Lot-префикс, напр. 01.01)",
+      "ordinal_suggestion": "Используйте Lot-префикс: 01.xx Gros Œuvre, 02.xx Étanchéité и т.д."
+    },
+    "cacobatph": {
+      "info": "Masse salariale {masse} DA → CACOBATPH 12,21% = {cot} DA (ставка {rate})"
+    }
   }
 }
